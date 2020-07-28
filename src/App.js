@@ -16,7 +16,7 @@ class App extends Component {
         <ul style={styles.list}>
          
            {this.state.list.map(item =>(
-              <li>{item} </li>
+              <li>{item}</li>
            ))}
          
         </ul>
